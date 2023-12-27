@@ -11,6 +11,6 @@ RUN go mod init myapp
 # Build the Go application inside the container
 RUN go build -o myapp
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["./myapp"]
